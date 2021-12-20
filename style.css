@@ -87,61 +87,17 @@ body {
     padding: 10px;
     clear: none;
 }
+#bio #personal h3 {
+    text-align: center;
+    font-size: 64px;
+}
+
 #bio #hobbies h3 {
     text-align: center;
+    font-size: 64px;
 }
-
-#bio #hobbies h4 {
+#bio #professional h3 {
     text-align: center;
+    font-size: 64px;
 }
-
-.button1 button {
-    background-color: #030078;
-  border: none;
-  color: white;
-  padding: 64px 64px;
-  text-align: center;
-  font-size: 48px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-  display: inline-block;
-  text-decoration: none;
-  cursor: pointer;
-}
-.button1 button:hover {opacity: 1}
-
-.button2 button {
-    background-color: #030078;
-  border: none;
-  color: white;
-  padding: 64px 32px;
-  text-align: center;
-  font-size: 48px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-  display: inline-block;
-  text-decoration: none;
-  cursor: pointer;
-}
-.button2 button:hover {opacity: 1}
-
-.button3 button {
-    background-color: #030078;
-  border: none;
-  color: white;
-  padding: 64px 58px;
-  text-align: center;
-  font-size: 48px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-  display: inline-block;
-  text-decoration: none;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.button3 button:hover {opacity: 1}
-
 
