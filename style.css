@@ -1,3 +1,38 @@
+h1 {
+    color: yellow;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
 body {
     background: blue;
-  }
+}
+#bio #personal {
+    content: "";
+    display: table;
+    float: left;
+    height: 470px;
+    width: 30%;
+    padding: 10px;
+    clear: both;
+}
+#bio #professional {
+    content: "";
+    display: table;
+    float: right;
+    height: 470px;
+    width: 30%;
+    padding: 10px;
+    clear: none;
+}
+#bio #hobbies {
+    content: "";
+    display: table;
+    float: none;
+    height: 470px;
+    width: 30%;
+    padding: 10px;
+    clear: none;
+}
