@@ -8,18 +8,52 @@ h1 {
     background-color: rgb(228 228 228 / 15%);
     font-family: Arial, Helvetica, sans-serif;
   }
+
+#bio .container #cf{
+    position: relative;
+    top: 0;
+    left: 0;
+}
  
-.user-icon img{
+#bio .container #cf .user-icon-top {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
-    height: 120px;
+    width: 120px;
+    height: 140px;
     position: relative;
+    top: 0;
+    left: 0;
     border-radius: 50%;
     background-size: contain;
-    background-image: url(https://i.imgur.com/rsPJESj.jpg);
     
+} 
+#bio .container #cf .user-icon-top{
+    position:relative;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#bio .container #cf .user-icon-bottom:hover {
+    opacity: 0;
+}
+#bio .container #cf .user-icon-bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    left: 459px;
+    border-radius: 50%;
+    background-size: contain;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 } 
 h2 {
     text-align: center;
